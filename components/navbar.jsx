@@ -40,16 +40,16 @@ const Navbar = () => {
                 </h1>
             <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
                 <li className='p-4'>
-                    <Link href='/'>About</Link>
-                </li>
-                <li className='p-4'>
                     <Link href='/#about'>About</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/'>Projects</Link>
+                    <Link href='/'>Exhibition</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/'>Services</Link>
+                    <Link href='/'>Artists</Link>
+                </li>
+                <li className='p-4'>
+                    <Link href='/'>Shop</Link>
                 </li>
                 <li className='p-4'>
                     <Link href='/'>Contact</Link>
@@ -70,12 +70,15 @@ const Navbar = () => {
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
                     <Link href='/#about'>About</Link>
+                </li>    
+              <li className='p-4  text-4xl hover:text-gray-500'>
+                    <Link href='/'>Exhibition</Link>
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href='/projects.js'>Projects</Link>
+                    <Link href='/'>Artists</Link>
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
-                    <Link href='/'>Services</Link>
+                    <Link href='/'>Shop</Link>
                 </li>
                 <li className='p-4 text-4xl hover:text-gray-500'>
                     <Link href='/'>Contact</Link>
