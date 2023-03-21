@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Hero from '@/components/hero'
 import About from '@/components/about'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero heading='Welcome to Parfitt Gallery'/>
       </Head>
       <About/>
+    
     </div>
   )
 }
