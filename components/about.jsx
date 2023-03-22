@@ -32,7 +32,7 @@ const About = () => {
          
           </div>
           <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
-              <img className="rounded-xl"  src="https://lh3.googleusercontent.com/i160MSMSeLFjH70KbijRe8MjrZVxRaAF5OEWTO6yYsJK2-0Ser4hiIEo_x5yOniof05dKsqAUkLD35NOcRodYcsb2WcY0OLJq6PKRB7rqnxkfxBhOA6bCXynTnRMwY1h2Tuv1jKdLuz5hXxQsNNd8F2RCvOkUt6NwMXQydcjrChUf9naCKRGMBKsRh0W_1_6QEWMb4Jva0wBVl2ugv4LutCDVrbXRjqszN0N431WWmjnxql-BtCZ0rEttVrIw4arSbU-IXQfC8dFOYLGNxiJjBSQJpnIBSmzrObSeEjp-RlO2P8V6Ar1ORu7qXfFTNlc134nWj6Li2YBQJY6Hp8rnrBjAOuLyph4aCx8sb7zg2Ta_J3HA2F7cB4PQdyAkchxWBzsbH26HMF6a6RD9i85uo-CgHLIpv5CG_ph68Pa54DsMePMQ8fUb7j3c5i4d7G2nAECii7_GmbLkhNBev4Ocg6TMbcQ_e4rG2v1eprxc1Vvs1ZnNaKq7MfbjGGw6wf2k1GaP5C-_KYYPQ3GBzByWYn6kIw2ZG-D18tGIWnoyDFc5qVDQt9iSLCVnkSr5fn4aKKwBtWb9rbqGaW8ztQfkfB8aHhD0r4Frdr8SlfUO2Tc5WnHAe-cSdGEgedqwidKM-ewls33vqyub_9i9J_fNTmusYh3sJdgT4LCpVlx9eThekluxi-3x87ZOzaBSbrwaTWTy5Jh9SRTDVK53ZZUpMy-eCxGdQ7sLxVuenc8XlUcOWwF962fs5Q6tobYjv6Fm0NNe1mQ3VnxGFs9aWBykPddf-gIywRxxAGlrDA4mVCXELqG0dAxCrMMpni9j6cy0vWWeLt3LpwTeC_ayeYL6wGGcy68ykxKdtfrgWxbZvxn4HaG7nFUgJY_2hmO5xIqrvEGQ5Xy-XrQj6SbY51E3c9gpWl06MRcMhzz3Si64fYnQgTULMYXWjENZloSygWAkAc5YPtKyR5HFCkLeofKZ06_4ntHXzGvSXM5KFO1hflqnC6k2JRZT5C3BkPhifNkDdTemWlkk4wc0gjJmuAuE_E=w972-h1296-s-no?authuser=0" alt="image" />
+              <img className="rounded-xl"  src="" alt="image" />
           </div>
 
         </div>

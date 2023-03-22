@@ -1,28 +1,38 @@
-import Image from "next/image";
+
 import styles from "../styles/Home.module.css";
 
-export default function imgly() {
+export default function Imgly() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        Responsive images using Next JS Image Component
+        Artwork
       </h1>
 
       <div className={styles.imagecontainer}>
-        <Image
-          src="../public/Capture.jpg"
-          alt="Sunset"
-          width={650}
-          height={380}
-          fill="responsive"
+        <img className="rounded-xl"
+          src="/ci.JPG"
+          alt="/"
+          width={850}
+          height={780}
+          
         />
-        <Image
-          src="/snow.jpg"
-          alt="Sunset"
-          width={650}
-          height={380}
-          fill="responsive"
+        <img className=" rounded-xl"
+          src="/Capture.jpg"
+          alt="/"
+          width={850}
+          height={580}
+         
         />
+
+        <img className=" rounded-xl"
+          src="/ci2.jpeg"
+          alt="/"
+          width={350}
+          height={180}
+         
+        />
+
+
       </div>
     </div>
   );
