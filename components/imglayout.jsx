@@ -19,7 +19,7 @@ export default function Imgly() {
         <img className=" rounded-xl"
           src="/Capture.jpg"
           alt="/"
-          width={850}
+          width={650}
           height={580}
          
         />
