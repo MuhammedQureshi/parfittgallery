@@ -43,7 +43,7 @@ const Navbar = () => {
                     <Link href='/#about'>About</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/'>Exhibition</Link>
+                    <Link href='/exhibition'>Exhibition</Link>
                 </li>
                 <li className='p-4'>
                     <Link href='/'>Artists</Link>

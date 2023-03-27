@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Hero = ({heading, message}) => {
+const Hero = ({heading}) => {
     return(
         <div className='flex flex-col items-center justify-center h-screen mb-12
         bg-fixed bg-center bg-cover custom-img' >
