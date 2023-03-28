@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
-import Hero from '@/components/hero'
-import About from '@/components/about'
-import Imgly from '@/components/imglayout'
+import Hero from '../components/hero'
+import About from '../components/about'
+import Imgly from '../components/imglayout'
 
 
 
