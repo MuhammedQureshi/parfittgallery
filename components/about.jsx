@@ -32,7 +32,7 @@ const About = () => {
          
           </div>
           <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
-              <img className="rounded-xl"  src="" alt="image" />
+              <img className="rounded-xl"  src="/crd.jpg" alt="image" />
           </div>
 
         </div>

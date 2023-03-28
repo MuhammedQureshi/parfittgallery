@@ -21,7 +21,6 @@ export default function Imgly() {
           alt="/"
           width={650}
           height={580}
-         
         />
 
         <img className=" rounded-xl"
