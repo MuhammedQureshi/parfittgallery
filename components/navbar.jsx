@@ -46,7 +46,7 @@ const Navbar = () => {
                     <Link href='/exhibition'>Exhibition</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/'>Artists</Link>
+                    <Link href='/artists'>Artists</Link>
                 </li>
                 <li className='p-4'>
                     <Link href='/'>Shop</Link>

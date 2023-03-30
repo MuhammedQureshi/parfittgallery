@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { createClient } from '@supabase/supabase-js'
-import Hero from '../components/hero'
+
 
 
 export async function getStaticProps() {
