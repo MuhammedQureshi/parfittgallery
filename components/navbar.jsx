@@ -49,10 +49,10 @@ const Navbar = () => {
                     <Link href='/artists'>Artists</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/'>Shop</Link>
+                    <Link href='/shop'>Shop</Link>
                 </li>
                 <li className='p-4'>
-                    <Link href='/'>Contact</Link>
+                    <Link href='/contact'>Contact</Link>
                 </li>
             </ul>
           {/* Mobile Button */}

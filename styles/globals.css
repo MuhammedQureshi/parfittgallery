@@ -14,3 +14,64 @@ html{
 .cstm-img{
   background-image: url('https://attachments.office.net/owa/643774%40students.croydon.ac.uk/service.svc/s/GetAttachmentThumbnail?id=AQMkADhmM2QwZTYwLWM1MDctNGUyYS1iNGNlLWI4MWVkMTM0NmFlZABGAAADAVQ%2B8KDjUEusesywUNN0HgcA4HfMckXbd0OZWFEcMBtmmgAAAgEMAAAA4HfMckXbd0OZWFEcMBtmmgABdN1OrgAAAAESABAAlNe09BygikCG8UOfRHU1gg%3D%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IkQ4OThGN0RDMjk2ODQ1MDk1RUUwREZGQ0MzODBBOTM5NjUwNDNFNjQiLCJ0eXAiOiJKV1QiLCJ4NXQiOiIySmozM0Nsb1JRbGU0Tl84dzRDcE9XVUVQbVEifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiNTM2M2UwM2FhMWNlNDY4Y2FjN2U1OGVhOTViYTY4MGMiLCJzaWduaW5fc3RhdGUiOiJbXCJpbmtub3dubnR3a1wiLFwia21zaVwiXSIsInZlciI6IkV4Y2hhbmdlLkNhbGxiYWNrLlYxIiwiYXBwY3R4c2VuZGVyIjoiT3dhRG93bmxvYWRAZDc3ZWM0YjQtMjZmNS00NjllLWIyNGMtMDg3NGE3NjYyMmUxIiwiaXNzcmluZyI6IldXIiwiYXBwY3R4Ijoie1wibXNleGNocHJvdFwiOlwib3dhXCIsXCJwdWlkXCI6XCIxMTUzODAxMTIwMDg1MzEyNDU0XCIsXCJzY29wZVwiOlwiT3dhRG93bmxvYWRcIixcIm9pZFwiOlwiZjMxOThhZWQtYjVhYy00Njc5LTk2OTEtMjlkMDQ5YmU0ZjE1XCIsXCJwcmltYXJ5c2lkXCI6XCJTLTEtNS0yMS0yMDAwMDQ4NjU2LTI3Mjk1NjIxNjktNDQwNzA0NjQ1LTMwMzIyOTA2XCJ9IiwibmJmIjoxNjgwMTc0MjQwLCJleHAiOjE2ODAxNzQ4NDAsImlzcyI6IjAwMDAwMDAyLTAwMDAtMGZmMS1jZTAwLTAwMDAwMDAwMDAwMEBkNzdlYzRiNC0yNmY1LTQ2OWUtYjI0Yy0wODc0YTc2NjIyZTEiLCJhdWQiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDAvYXR0YWNobWVudHMub2ZmaWNlLm5ldEBkNzdlYzRiNC0yNmY1LTQ2OWUtYjI0Yy0wODc0YTc2NjIyZTEiLCJoYXBwIjoib3dhIn0.E3LxMYyMA40gziDacvO9RVynQAqnh-PMf8641dacUPyIf-eZCVXJd6KbrVPjau-O3ze-2bXiNMkvnjKt4Zw-jLBoO5fSoFZzNK2qBYBnvDypPgcTX_qn9Cyuu-8jmDqPqbiiaWYx-llKidu6TNKQdapVvYLI-HXCrCApBYfpfvkz5W97WhrLIlWZHawk_bf__r3yIQKIBDPeQmqRRG5b_HPPsCfIhEww1X1CBmeLbEXN-cHlgvOFEeQLQbIfOepjU-UskX_u-UtgZk_l6vcEEhZRKnA8qLNlYRBkd5MVrPU2q0uiC4oQcK8QyzWh6H6Dn4Xs1QcB40ICBZlWC2O6Gw&X-OWA-CANARY=B6egDI1RGkygoqoDYEejIVBTWuMOMdsYWmEc48oDSwJatfGl8v_Tt9d24Cm79GYUJI4jfFKJ_1A.&owa=outlook.office.com&scriptVer=20230317009.13&animation=true');
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800&family=Roboto:wght@100;300;400;500&family=Space+Grotesk:wght@400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+  
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+.container {
+	padding: 0 250px;
+}
+
+@media (max-width: 500px) {
+	.container {
+		padding: 0 50px;
+	}
+}
+
+img {
+	object-fit: cover;
+	transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+.nav-price {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	cursor: pointer;
+}
+
+.btn {
+	background-color: #5aa388;
+	color: #fff;
+	display: inline-block;
+	padding: 15px 20px;
+	margin: 5px 0;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+	border: none;
+}
+
+.btn:hover {
+	background-color: #45876d;
+}
