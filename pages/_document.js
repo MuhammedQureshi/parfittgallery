@@ -6,6 +6,9 @@ export default function Document() {
       <Head>
 
 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+
+
 
         <link rel="preconnect" href="<https://app.snipcart.com>" />
 				<link rel="preconnect" href="<https://cdn.snipcart.com>" />
