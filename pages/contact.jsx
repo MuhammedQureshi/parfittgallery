@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/contact.module.css'
+
 
 export default function Contact() {
   async function handleSubmit(e) {
@@ -9,7 +9,7 @@ export default function Contact() {
   }
 
   return (
-    <form className="container" onSubmit={handleSubmit}>
+    <form className="container1 contact-form" onSubmit={handleSubmit}>
       <h1>Get in touch</h1>
       <div className="email block">
         <label htmlFor="frm-email">Email</label>
