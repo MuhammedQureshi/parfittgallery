@@ -22,7 +22,7 @@ export default function Contact() {
         />
       </div>
       <div className="block phone">
-        <label htmlFor="frm-phone">Phone Number</label>
+        <label htmlFor="frm-phone">Phone</label>
         <input
           id="frm-phone"
           type="text"
